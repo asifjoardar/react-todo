@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
 }
 button {
     cursor: pointer;
@@ -51,23 +51,25 @@ button {
 header {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 12px;
+    justify-content: center;
     padding: 42px;
 }
 .todohero_section {
     border: 1px solid #c2b39a;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     align-self: center;
-    width: 90%;
+    width: 100%;
     max-width: 455px;
-    padding: 12px;
+    padding: 30px;
     border-radius: 11px;
 }
+.hero_text {
+    width: 50%;
+}
 .todohero_section div:last-child {
-    background-color: #88ab33;
+    background-color: #1065aa;
     width: 150px;
     height: 150px;
     border-radius: 75px;
@@ -79,7 +81,7 @@ header {
 }
 .form {
     align-self: center;
-    width: 97%;
+    width: 100%;
     max-width: 455px;
     display: flex;
     align-items: center;
@@ -87,7 +89,7 @@ header {
     margin-top: 38px;
 }
 .form label {
-    width: 90%;
+    width: 100%;
 }
 .form input {
     background-color: #1f2937;
@@ -103,12 +105,12 @@ header {
     width: 10%;
     height: 50px;
     border-radius: 11px;
-    background-color: #88ab33;
+    background-color: #1065aa;
     border: none;
 }
 .todo_list {
     align-self: center;
-    width: 97%;
+    width: 100%;
     max-width: 455px;
     display: flex;
     flex-direction: column;
