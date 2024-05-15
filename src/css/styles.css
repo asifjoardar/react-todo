@@ -168,3 +168,12 @@ header {
     font-size: 14px;
     margin-top: 5px;
 }
+
+.loadMoreButton {
+    width: 30%;
+    height: 50px;
+    border-radius: 11px;
+    background-color: #1065aa;
+    border: none;
+    margin-bottom: 10%;
+}
